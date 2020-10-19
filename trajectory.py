@@ -24,7 +24,7 @@ gamma = 19  # degrees
 x1_real = -M2 * r12_real
 x2_real = M1 * r12_real
 Omega_real = np.sqrt((G_real * (m1 + m2)) / r12_real ** 3)
-mu1 = G_real * m1 + x1_real
+mu1 = G_real * m1
 mu2 = G_real * m2
 #print(x1_real, x2_real, Omega_real, mu1, mu2)
 
